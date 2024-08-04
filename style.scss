@@ -1,1 +1,12 @@
+body {
+  background-image: url('../images/background.png'); /* Caminho para a sua imagem */
+  background-size: cover; /* Faz a imagem cobrir toda a tela */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+  font-family: Arial, sans-serif; /* Define uma fonte padrão */
+}
+
+h1, p, nav {
+  color: white; /* Torna o texto branco para contraste com o fundo */
+}
 
