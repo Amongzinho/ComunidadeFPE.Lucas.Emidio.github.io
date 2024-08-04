@@ -6,12 +6,39 @@
   <title>Comunidade FPE - Paper School</title>
   <link rel="stylesheet" href="css/style.css"> <!-- Link para o CSS -->
   <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+    h1, p, nav {
+      color: #333;
+    }
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+    nav ul li a {
+      color: #333;
+      text-decoration: none;
+    }
+    .character {
+      margin: 20px 0;
+    }
+    .character h2 {
+      cursor: pointer;
+      color: #007BFF;
+    }
     .character-info {
       display: none;
       margin-top: 10px;
       border: 1px solid #ddd;
       padding: 10px;
-      background-color: #f9f9f9;
+      background-color: #fff;
     }
   </style>
 </head>
@@ -38,6 +65,12 @@
       <h2 onclick="toggleInfo('char2')">Personagem 2</h2>
       <div id="char2" class="character-info">
         <p>Informações detalhadas sobre o Personagem 2.</p>
+      </div>
+    </div>
+    <div class="character">
+      <h2 onclick="toggleInfo('char3')">Personagem 3</h2>
+      <div id="char3" class="character-info">
+        <p>Informações detalhadas sobre o Personagem 3.</p>
       </div>
     </div>
     <!-- Adicione mais personagens conforme necessário -->
