@@ -4,7 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Comunidade FPE - Paper School</title>
-  <link rel="stylesheet" href="css/style.css"> <!-- Link para o CSS, se aplicável -->
+  <link rel="stylesheet" href="css/style.css"> <!-- Link para o CSS -->
+  <style>
+    .character-info {
+      display: none;
+      margin-top: 10px;
+      border: 1px solid #ddd;
+      padding: 10px;
+      background-color: #f9f9f9;
+    }
+  </style>
 </head>
 <body>
   <h1>Paper School</h1>
@@ -18,5 +27,31 @@
       <li><a href="dangerau.html">DANGER AU</a></li>
     </ul>
   </nav>
+  <div class="character-list">
+    <div class="character">
+      <h2 onclick="toggleInfo('char1')">Personagem 1</h2>
+      <div id="char1" class="character-info">
+        <p>Informações detalhadas sobre o Personagem 1.</p>
+      </div>
+    </div>
+    <div class="character">
+      <h2 onclick="toggleInfo('char2')">Personagem 2</h2>
+      <div id="char2" class="character-info">
+        <p>Informações detalhadas sobre o Personagem 2.</p>
+      </div>
+    </div>
+    <!-- Adicione mais personagens conforme necessário -->
+  </div>
+
+  <script>
+    function toggleInfo(id) {
+      const info = document.getElementById(id);
+      if (info.style.display === "none" || info.style.display === "") {
+        info.style.display = "block";
+      } else {
+        info.style.display = "none";
+      }
+    }
+  </script>
 </body>
 </html>
