@@ -1,12 +1,31 @@
+/* style.css */
+
 body {
-  background-image: url('../images/background.png'); /* Caminho para a sua imagem */
-  background-size: cover; /* Faz a imagem cobrir toda a tela */
+  margin: 0;
+  padding: 0;
+  background-image: url('https://i1.sndcdn.com/artworks-THB4baJXTfabiMzZ-ymJ1wQ-t1080x1080.jpg');
+  background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
   background-position: center; /* Centraliza a imagem */
   background-repeat: no-repeat; /* Evita que a imagem se repita */
-  font-family: Arial, sans-serif; /* Define uma fonte padrão */
 }
 
+/* Adicione estilos adicionais conforme necessário */
 h1, p, nav {
-  color: white; /* Torna o texto branco para contraste com o fundo */
+  color: white; /* Define a cor do texto para contrastar com o fundo */
+}
+
+nav ul {
+  list-style-type: none; /* Remove marcadores da lista */
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
 }
 
