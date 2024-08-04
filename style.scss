@@ -1,31 +1,33 @@
-/* style.css */
-
 body {
   margin: 0;
   padding: 0;
-  background-image: url('https://i1.sndcdn.com/artworks-THB4baJXTfabiMzZ-ymJ1wQ-t1080x1080.jpg');
-  background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
-  background-position: center; /* Centraliza a imagem */
-  background-repeat: no-repeat; /* Evita que a imagem se repita */
+  background-color: #f0f0f0;
 }
-
-/* Adicione estilos adicionais conforme necessário */
 h1, p, nav {
-  color: white; /* Define a cor do texto para contrastar com o fundo */
+  color: #333;
 }
-
 nav ul {
-  list-style-type: none; /* Remove marcadores da lista */
+  list-style-type: none;
   padding: 0;
 }
-
 nav ul li {
   display: inline;
   margin-right: 10px;
 }
-
 nav ul li a {
-  color: white;
+  color: #333;
   text-decoration: none;
 }
-
+.character {
+  margin: 20px 0;
+}
+.character h2 {
+  cursor: pointer;
+  color: #007BFF;
+}
+#character-info-container {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #fff;
+}
