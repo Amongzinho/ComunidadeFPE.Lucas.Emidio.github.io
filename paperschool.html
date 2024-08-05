@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Comunidade FPE - Paper School</title>
-  <link rel="stylesheet" href="css/style.css"> <!-- Link para o CSS -->
+  <link rel="stylesheet" href="css/style.css"> <!-- Link para o CSS, se aplicável -->
 </head>
 <body>
   <h1>Paper School</h1>
@@ -13,27 +13,27 @@
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="paperschool.html">Paper School</a></li>
-      <li><a href="memes.html">Memes</a></li>
-      <li><a href="ocs.html">OC's</a></li>
-      <li><a href="dangerau.html">DANGER AU</a></li>
     </ul>
   </nav>
-  <div class="character-list">
-    <div class="character">
-      <h2 onclick="loadCharacter('personagem1.html')">Personagem 1</h2>
-    </div>
-    <div class="character">
-      <h2 onclick="loadCharacter('personagem2.html')">Personagem 2</h2>
-    </div>
-    <div class="character">
-      <h2 onclick="loadCharacter('personagem3.html')">Personagem 3</h2>
-    </div>
-    <!-- Adicione mais personagens conforme necessário -->
-  </div>
-  <div id="character-info-container">
-    <!-- Conteúdo do personagem será carregado aqui -->
-  </div>
 
-  <script src="js/script.js"></script> <!-- Link para o JavaScript -->
+  <section id="characters">
+    <h2>Personagens</h2>
+    
+    <!-- Personagem 1 -->
+    <div class="character">
+      <img src="images/characters/personagem1.jpg" alt="Personagem 1">
+      <h3>Nome do Personagem 1</h3>
+      <p>Descrição do personagem 1. Aqui você pode adicionar informações sobre o personagem, sua história, habilidades, etc.</p>
+    </div>
+
+    <!-- Personagem 2 -->
+    <div class="character">
+      <img src="images/characters/personagem2.jpg" alt="Personagem 2">
+      <h3>Nome do Personagem 2</h3>
+      <p>Descrição do personagem 2. Aqui você pode adicionar informações sobre o personagem, sua história, habilidades, etc.</p>
+    </div>
+
+    <!-- Adicione mais personagens conforme necessário -->
+  </section>
 </body>
 </html>
